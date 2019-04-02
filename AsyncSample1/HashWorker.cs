@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * 
+ *  Source codes under this project is licensed under MIT Project.
+ *  Created by: Mirza Ghulam Rasyid
+ * 
+ * 
+ */
+
+
+using System;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
@@ -10,7 +19,7 @@ namespace AsyncSample1
     public class HashWorker
     {
         /// <summary>
-        /// Get timer configuration from appSettings
+        /// Gets timer configuration from appSettings
         /// </summary>
         /// <returns>Timer in second</returns>
         private int GetSleepTimer()
@@ -21,7 +30,7 @@ namespace AsyncSample1
         }
 
         /// <summary>
-        /// Hash provided text using SHA512
+        /// Hashes provided text using SHA512
         /// </summary>
         /// <param name="text">Plain text</param>
         /// <returns>Hashed data with Base64 Encoded</returns>
