@@ -1,6 +1,6 @@
 ﻿/*
  * 
- *  Source codes under this project is licensed under MIT Project.
+ *  Source codes under this project are licensed under MIT Project.
  *  Created by: Mirza Ghulam Rasyid
  * 
  * 
